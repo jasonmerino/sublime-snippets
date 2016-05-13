@@ -1,1 +1,12 @@
-/Users/jason.merino/Code/dotfiles/Sublime Text 3/snippet-nlog.sublime-snippet
+<snippet>
+	<content><![CDATA[
+console.log(require('util').inspect(${1:this}, {
+	depth: ${2:null},
+	colors: ${3:true}
+}));
+]]></content>
+	<!-- Set the tab trigger to nlog (node log) -->
+	<tabTrigger>nlog</tabTrigger>
+	<!-- Set the file scope to .js files -->
+	<scope>source.js</scope>
+</snippet>

@@ -1,1 +1,9 @@
-/Users/jason.merino/Code/dotfiles/Sublime Text 3/snippet-context-dump.sublime-snippet
+<snippet>
+	<content><![CDATA[
+{@conextDump key="${1:current}" to="${2:console}" /}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>contextDump</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.dust</scope>
+</snippet>

@@ -1,1 +1,10 @@
-/Users/jason.merino/Code/dotfiles/Sublime Text 3/snippet-desc.sublime-snippet
+<snippet>
+	<content><![CDATA[
+describe('$1', function() {
+	$2
+});
+]]></content>
+	<tabTrigger>desc</tabTrigger>
+	<scope>source.js</scope>
+	<description>Mocha describe function</description>
+</snippet>
