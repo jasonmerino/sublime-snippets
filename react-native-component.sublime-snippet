@@ -1,0 +1,27 @@
+<snippet>
+	<content><![CDATA[
+'use strict';
+
+import React, { Component, PropTypes } from 'react';
+import { $1 } from 'react-native';
+
+class ${2:ClassName} extends Component {
+
+	render() {
+		return (
+			$3
+		);
+	}
+
+}
+
+${2:ClassName}.propTypes = {};
+
+export default ${2:ClassName};
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>rncomp</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.js</scope>
+	<description>React Native: Component</description>
+</snippet>
