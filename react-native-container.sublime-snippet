@@ -1,0 +1,39 @@
+<snippet>
+	<content><![CDATA[
+'use strict';
+
+import React, { Component, PropTypes } from 'react';
+import { $1 } from 'react-native';
+import { connect } from 'react-redux';
+import { bindActionCreators } from 'redux';
+
+class ${2:ClassName} extends Component {
+
+	render() {
+		return (
+			$3
+		);
+	}
+
+}
+
+${2:ClassName}.propTypes = {};
+
+export default connect((state) => {
+	return {
+		$4
+	};
+}, (dispatch) => {
+	return {
+		actions: bindActionCreators({
+			$5
+		}, dispatch),
+	}
+})(${2:ClassName});
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>rncont</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.js</scope>
+	<description>React Native: Container</description>
+</snippet>
