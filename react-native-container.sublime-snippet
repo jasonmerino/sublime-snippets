@@ -2,10 +2,19 @@
 	<content><![CDATA[
 'use strict';
 
-import React, { Component, PropTypes } from 'react';
-import { $1 } from 'react-native';
-import { connect } from 'react-redux';
-import { bindActionCreators } from 'redux';
+import React, {
+	Component,
+	PropTypes,
+} from 'react';
+import {
+	$1,
+} from 'react-native';
+import {
+	connect,
+} from 'react-redux';
+import {
+	bindActionCreators,
+} from 'redux';
 
 class ${2:ClassName} extends Component {
 
