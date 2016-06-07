@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+const dataSource = new ListView.DataSource({
+	rowHasChanged: (r1, r2) => r1 !== r2,
+}).cloneWithRows($1);
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>rnds</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.js</scope>
+	<description>React Native: ListView.DataSource</description>
+</snippet>
