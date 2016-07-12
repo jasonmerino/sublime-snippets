@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-'use strict'$1
+'use strict';
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>us</tabTrigger>
