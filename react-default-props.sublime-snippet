@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+${1:ClassName}.defaultProps = {
+	$2
+};
+]]></content>
+	<tabTrigger>rdf</tabTrigger>
+	<scope>source.js</scope>
+</snippet>
