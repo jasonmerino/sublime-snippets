@@ -4,6 +4,6 @@ ${1:ClassName}.defaultProps = {
 	$2
 };
 ]]></content>
-	<tabTrigger>rdf</tabTrigger>
+	<tabTrigger>rdp</tabTrigger>
 	<scope>source.js</scope>
 </snippet>
