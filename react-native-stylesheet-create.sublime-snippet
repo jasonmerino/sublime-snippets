@@ -2,7 +2,7 @@
 	<content><![CDATA[
 const componentStyles = StyleSheet.create({
 	$1
-})
+});
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>rnsc</tabTrigger>
