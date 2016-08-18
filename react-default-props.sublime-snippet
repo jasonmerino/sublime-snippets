@@ -1,9 +1,8 @@
 <snippet>
 	<content><![CDATA[
-${1:ClassName}.defaultProps = {
-	$2
-};
+this.setState({$1: $2});
 ]]></content>
-	<tabTrigger>rdp</tabTrigger>
+	<tabTrigger>rss</tabTrigger>
+	<description>React: this.setState</description>
 	<scope>source.js</scope>
 </snippet>
